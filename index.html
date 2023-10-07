@@ -11,14 +11,36 @@
             <h1>Challenge 5</h1>
         </header>
         <form >
+            <label for="birthYear">
+                Enter your birth year:
+                <input type="number" name="birthYear" />
+            </label>
+            
+            <label for="birthMonth">
+                Enter your birth month:
+                <input type="number" name="birthMonth" min="1" max="12"/>
+            </label>
+            
             <label for="birthDay">
-                Enter your birthday:
-                <input type="date" name="birthDay" />
+                Enter your birth day:
+                <input type="number" name="birthDay" min="1" max="31" />
             </label>
-            <label for="today">
-                Enter today's date:
-                <input type="date" name="today" />
+            
+            <label for="currentYear">
+                What year is it?
+                <input type="number" name="currentYear" />
             </label>
+
+            <label for="currentMonth">
+                What month is it ?(Enter a number)
+                <input type="number" name="currentMonth" min="1" max="12"/>
+            </label>
+
+            <label for="currentDay">
+                What day is it?
+                <input type="number" name="currentDay" min="1" max="31"/>
+            </label>
+
             <input type="submit" value="enter" />
         </form>
         <h2></h2>
